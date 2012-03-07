@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="ftw.portlet.weather">
+
+    <include package="plone.app.portlets" />
+
+    <!-- Register locales translations -->
+    <i18n:registerTranslations directory="locales" />
+
+    <!-- Register the installation GenericSetup extension profile -->
+    <genericsetup:registerProfile
+      name="default"
+      title="ftw.portlet.weather"
+      directory="profiles/default"
+      description="SF meteo weather portlet"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+
+    <plone:portlet
+        name="ftw.portlet.weather"
+        interface=".portlet.IWeatherPortlet"
+        assignment=".portlet.Assignment"
+        renderer=".portlet.Renderer"
+        addview=".portlet.AddForm"
+        />
+
+
+</configure>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<registry>
+    <record name="ftw.portlet.weather.url">
+        <field type="plone.registry.field.TextLine">
+            <title>URL to swf weather file</title>
+        </field>
+        <value>http://meteo.sf.tv/sfmeteo/media/embed/embed_small_aussichten.swf</value>
+    </record>
+</registry>
