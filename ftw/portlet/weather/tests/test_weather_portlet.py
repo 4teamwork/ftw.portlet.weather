@@ -11,7 +11,7 @@ from plone.registry.interfaces import IRegistry
 
 
 class TestPortlet(unittest.TestCase):
-    """Test clock portlet
+    """Test weather portlet
     """
 
     layer = FTW_WEATHERPORTLET_INTEGRATION_TESTING

@@ -1,7 +1,7 @@
 Overview
 ========
 
-``ftw.portlet.weather`` provides the sbb flash clock from sbb.ch
+``ftw.portlet.weather`` provides the sf meteo flash forcast from sf.meteo.ch
 
 
 Install
