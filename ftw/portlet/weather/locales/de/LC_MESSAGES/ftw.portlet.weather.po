@@ -14,11 +14,11 @@ msgstr ""
 
 #: ./ftw/portlet/weather/portlet.py:25
 msgid "SF meteo weather portlet"
-msgstr ""
+msgstr "SF Meteo Wetter Portlet"
 
 #. Default: "Weather"
 #: ./ftw/portlet/weather/portlet.pt:6
 msgid "sf_meteo_weather_portlet_title"
-msgstr ""
+msgstr "Wetter"
 
 
