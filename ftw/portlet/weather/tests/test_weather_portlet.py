@@ -46,4 +46,11 @@ class TestPortlet(unittest.TestCase):
             (context, request, view, manager, assignment), IPortletRenderer)
         self.assertTrue("weather" in renderer.render())
         registry = getUtility(IRegistry)
-        self.assertTrue(registry['ftw.portlet.weather.url'] in renderer.render())
+        self.assertTrue(
+            registry['ftw.portlet.weather.url'] in renderer.render())
+
+    def test_assignment(self):
+        assignment = weather.Assignment()
+        self.assertEqual(
+            assignment.title,
+            u'SF meteo weather portlet')

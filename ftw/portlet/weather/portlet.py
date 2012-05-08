@@ -1,6 +1,5 @@
 from plone.portlets.interfaces import IPortletDataProvider
 from plone.app.portlets.portlets import base
-from plone.app.portlets.cache import render_cachekey
 from plone.memoize.compress import xhtml_compress
 from zope.interface import implements
 from plone.registry.interfaces import IRegistry
@@ -10,7 +9,7 @@ from ftw.portlet.weather import _
 
 
 class IWeatherPortlet(IPortletDataProvider):
-    """
+    """Weather portlet Interface
     """
 
 
@@ -23,10 +22,6 @@ class Assignment(base.Assignment):
     @property
     def title(self):
         return _(u"SF meteo weather portlet")
-
-
-def _render_cachekey(fun, self):
-    return render_cachekey(fun, self)
 
 
 class Renderer(base.Renderer):
