@@ -26,8 +26,13 @@ Links
 - Package repository: https://github.com/4teamwork/ftw.portlet.weather
 - Issue tracker: https://github.com/4teamwork/ftw.portlet.weather/issues
 - Package on pypi: http://pypi.python.org/pypi/ftw.portlet.weather
+- Continuous integration: https://jenkins.4teamwork.ch/search?q=ftw.portlet.weather
 
-Maintainer
-==========
 
-This package is produced and maintained by `4teamwork GmbH <http://www.4teamwork.ch/>`_.
+Copyright
+=========
+
+This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_.
+
+``ftw.portlet.weather`` is licensed under GNU General Public License, version 2.
+
