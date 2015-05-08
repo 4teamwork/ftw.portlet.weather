@@ -23,9 +23,9 @@ Install
 Links
 =====
 
-- Package repository: https://github.com/4teamwork/ftw.portlet.weather
-- Issue tracker: https://github.com/4teamwork/ftw.portlet.weather/issues
-- Package on pypi: http://pypi.python.org/pypi/ftw.portlet.weather
+- Github: https://github.com/4teamwork/ftw.portlet.weather
+- Issues: https://github.com/4teamwork/ftw.portlet.weather/issues
+- Pypi: http://pypi.python.org/pypi/ftw.portlet.weather
 - Continuous integration: https://jenkins.4teamwork.ch/search?q=ftw.portlet.weather
 
 
