@@ -4,6 +4,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:upgrade-step="http://namespaces.zope.org/ftw.upgrade"
     i18n_domain="ftw.portlet.weather">
 
     <include package="plone.app.portlets" />
@@ -29,5 +30,10 @@
         addview=".portlet.AddForm"
         />
 
+    <include package="ftw.upgrade" file="meta.zcml" />
+    <upgrade-step:directory
+        profile="ftw.portlet.weather:default"
+        directory="./upgrades"
+        />
 
 </configure>
