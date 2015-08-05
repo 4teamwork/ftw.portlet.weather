@@ -37,6 +37,7 @@ setup(name='ftw.portlet.weather',
 
       install_requires=[
         'setuptools',
+        'ftw.upgrade>=1.14',
         ],
       tests_require=tests_require,
       extras_require=dict(tests=tests_require),
